@@ -1,0 +1,110 @@
+ul {
+    list-style-type: none;
+}
+body {
+    margin: 0;
+}
+
+.site-container{
+    position: relative;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    /* margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh; */
+}
+
+/* header */
+.profile-photo-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 71vw;
+    padding: 5vw;
+    //background slash at the top
+    background: linear-gradient(340deg, transparent 50%, #3498db 50%, #3498db),
+                /* linear-gradient(-45deg, transparent 50%, #3498db 50%, #3498db) */;
+    background-size: 137% 121%; 
+    background-position: center center;
+}
+
+#profile-photo{
+    max-width: 53%;
+}
+
+
+.name-container{
+    position: absolute;
+    z-index: 1;
+    color: cadetblue;
+    font-size: 7.6vw;
+    left: 12vw;
+    top: 37vw;
+    text-shadow: -1vw .0vw .8vw rgb(0, 0, 0);
+}
+footer img{
+    max-width: 5em;
+
+}
+
+#facebook-icon{
+    filter: brightness(0);
+}
+
+.project-preview-img {
+    box-shadow: 4vw -2vw 6px 1.6vw #26134a;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4vw;
+}
+
+//main div
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+//footer
+footer {
+    background-color: greenyellow;
+    margin-top: 17vw;
+    width: 100%;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    padding: 4vw;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-media > img {
+    margin: 2vw;
+}
+#facebook-icon,
+#github-icon {
+    max-height: 21vw;
+}
+
+
