@@ -5,11 +5,11 @@ function startVid(e){
 }
 //switch image to gif or vice 
 
-/* document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
     const displayProject = document.querySelectorAll('#display-project');
     displayProject.forEach(projectImg => {
-        const stillImg = '../src/img/fortnite_ss.png';
-        const movingImg = '../src/img/fortnite.gif';
+        const stillImg = './public/fortnite_ss.png';
+        const movingImg = './public/fortnite.gif';
         projectImg.addEventListener('mouseleave', () => {
             projectImg.src = movingImg;
         })
@@ -18,5 +18,5 @@ function startVid(e){
         })
     })
 });
- */
+
 
