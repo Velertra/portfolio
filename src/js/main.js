@@ -1,4 +1,4 @@
-import '../styles/main.scss';
+import "../styles/main.scss";
 
 function startVid(e){
     const element = e;
@@ -8,8 +8,8 @@ function startVid(e){
 document.addEventListener('DOMContentLoaded', () => {
     const displayProject = document.querySelectorAll('#display-project');
     displayProject.forEach(projectImg => {
-        const stillImg = './public/fortnite_ss.png';
-        const movingImg = './public/fortnite.gif';
+        const stillImg = '../src/imgs/fortnite_ss.png';
+        const movingImg = '../src/imgs/fortnite.gif';
         projectImg.addEventListener('mouseleave', () => {
             projectImg.src = movingImg;
         })
@@ -18,5 +18,3 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     })
 });
-
-
