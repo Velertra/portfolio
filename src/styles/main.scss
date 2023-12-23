@@ -1,3 +1,5 @@
+@import 'background';
+
 @mixin basic-display {
     display: flex;
     flex-direction: column;
@@ -16,12 +18,12 @@
     margin-top: unset;
     border: .1vw solid #000000;
     border-top: none;
-    
 }
 
 body {
     margin: 0;
 }
+
 .site-container{
     position: relative;
     padding: 0;
@@ -33,8 +35,6 @@ body {
 
 .profile-photo-div{
     @include basic-display;
-    min-height: 71vw;
-    padding: 5vw;
     background: linear-gradient(340deg, transparent 50%, #3498db 50%, #3498db);
     background-size: 137% 121%; 
     background-position: center center;
@@ -43,7 +43,6 @@ body {
     }
 }
 .name-container {
-    position: absolute;
     z-index: 1;
     color: cadetblue;
     font-size: 7.6vw;
@@ -54,9 +53,7 @@ body {
 .info-container {
     @include basic-display;
     padding: 4vw;
-
     }
-
 
 //main div
 
@@ -95,8 +92,6 @@ h2{
     min-height: 11vw;
 }
 
-
-
 //footer
 
 footer {
@@ -133,4 +128,8 @@ h1{
 
 #facebook-icon{
     filter: brightness(0);
+}
+
+.top-container {
+    min-width: 100vh;
 }
