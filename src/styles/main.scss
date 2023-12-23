@@ -38,6 +38,7 @@ body {
     background: linear-gradient(340deg, transparent 50%, #3498db 50%, #3498db);
     background-size: 137% 121%; 
     background-position: center center;
+    height: 35vh;
     .profile-photo {
         max-width: 53%;
     }
@@ -107,7 +108,7 @@ footer {
             justify-content: center;
             #facebook-icon,
             #github-icon {
-                max-height: 13vw;
+                min-height: 13vw;
             }
         }
     }
