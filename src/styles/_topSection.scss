@@ -1,0 +1,34 @@
+body {
+    background: #0a76be;
+}
+
+.top-container {
+    min-width: 100vh;
+}
+
+.bg-top {
+    background: linear-gradient(340deg, transparent 50%, #3498db 50%, #3498db);
+    background-size: 137% 121%; 
+    background-position: center center;
+}
+
+.profile-photo-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.name-container {
+    z-index: 1;
+    margin-left: 10vh;
+    color: cadetblue;
+    font-size: 7.6vw;
+    text-shadow: -1vw .0vw .8vw rgb(0, 0, 0);   
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+

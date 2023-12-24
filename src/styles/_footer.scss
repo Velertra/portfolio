@@ -1,0 +1,35 @@
+
+footer {
+    background-color: greenyellow;
+    margin-top: 17vw;
+    width: 100%;
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        padding: 4vw;
+        .social-media{
+            display: flex;
+            justify-content: center;
+            #facebook-icon,
+            #github-icon {
+                min-height: 13vw;
+            }
+        }
+    }
+}
+
+#instagram-icon{
+    max-width: 14vw;
+}
+
+.social-media > img {
+    margin: 2vw;
+}
+
+#facebook-icon{
+    filter: brightness(0);
+}
+
+.top-container {
+    min-width: 100vh;
+}
