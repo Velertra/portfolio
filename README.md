@@ -11,4 +11,5 @@ for development:
 npx webpack --watch
 
 in webpack.config change "path" to "docs" when publishing to gh-pages.
--"dist" for development.
+
+"dist" for development

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "mode": "production",
   "scripts": {
     "build": "node_modules/.bin/webpack --config webpack.config.js",
     "deploy": "gh-pages -d dist"

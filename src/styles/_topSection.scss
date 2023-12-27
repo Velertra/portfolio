@@ -1,12 +1,9 @@
-body {
-    background: #0a76be;
-}
-
 .top-container {
     min-width: 100vh;
 }
 
 .bg-top {
+    //move to "top-container", "profile-photo-div" or add text to div to display line in top
     background: linear-gradient(340deg, transparent 50%, #3498db 50%, #3498db);
     background-size: 137% 121%; 
     background-position: center center;
@@ -21,7 +18,7 @@ body {
 .name-container {
     z-index: 1;
     margin-left: 10vh;
-    color: cadetblue;
+    color: rgb(60, 43, 192);
     font-size: 7.6vw;
     text-shadow: -1vw .0vw .8vw rgb(0, 0, 0);   
 }

@@ -5,6 +5,7 @@
     margin-top: unset;
     border: .1vw solid #000000;
     border-top: none;
+    padding: 1vh;
 }
 
 @mixin image-shadow {
@@ -36,8 +37,52 @@
     }
 }
 
-#website-btn-size,
-#github-btn-size{
-    max-height: 13vw;
-    min-height: 11vw;
+
+.github-btn, 
+.website-btn{
+    background-image: linear-gradient(to right, #7a50eb, #a385f5, #9282ef, #a698f3);
+    box-shadow: 4px -3px 15px 0 rgba(93, 49, 196, 0.75);
+    /* text-align: center; */
+    width: 44vh;
+    font-size: 8vh;
+    height: 13vh;
+    
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 1vh;
+    
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+ .github-btn:focus, 
+.website-btn:focus{
+    outline: none;
+}
+
+.github-btn:hover, 
+.website-btn:hover{
+    background-position: 100% 0;
+
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -moz-transition: alls 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+@media (max-width:1000px) {
+    .github-btn,
+    .website-btn{
+        width: 14vh;
+        font-size: 2vh;
+        height: 5vh;
+    }
 }
