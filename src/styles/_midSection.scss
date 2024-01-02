@@ -18,12 +18,18 @@
 .image-container-3{
     display: flex;
     flex-direction: column;
-    align-items: center;
     #display-project{
         @include image-shadow;
         border-top: none;
     }
 }   
+
+.img-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+
+}
 
 .project-info-1,
 .project-info-2,
