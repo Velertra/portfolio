@@ -15,7 +15,8 @@
 
 .image-container-1,
 .image-container-2,
-.image-container-3{
+.image-container-3,
+.image-container-4{
     display: flex;
     flex-direction: column;
     #display-project{
@@ -33,12 +34,14 @@
 
 .project-info-1,
 .project-info-2,
-.project-info-3 {
+.project-info-3,
+.project-info-4{
     @include project-info-container;
     box-shadow: 4vw -3vw 30px 1vw #26134a;
     .project-text-1,
     .project-text-2,
-    .project-text-3{
+    .project-text-3,
+    .project-text-4{
         padding: 1.5vw;
     }
 }
